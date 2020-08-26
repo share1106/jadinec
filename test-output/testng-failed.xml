@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [甲丁智慧建造云平台]">
+  <test thread-count="5" name="接口测试用例(failed)">
+    <classes>
+      <class name="com.jadinec.cases.GetOrgInfoByIdTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="getOrgInfoByIdTest"/>
+        </methods>
+      </class> <!-- com.jadinec.cases.GetOrgInfoByIdTest -->
+    </classes>
+  </test> <!-- 接口测试用例(failed) -->
+</suite> <!-- Failed suite [甲丁智慧建造云平台] -->

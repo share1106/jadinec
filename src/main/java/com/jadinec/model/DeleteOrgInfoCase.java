@@ -3,7 +3,7 @@ package com.jadinec.model;
 import lombok.Data;
 
 @Data
-public class DeleteOrgInfo {
+public class DeleteOrgInfoCase {
 
 	private int id;
 	private int org_id;

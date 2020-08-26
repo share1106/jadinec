@@ -3,7 +3,7 @@ package com.jadinec.model;
 import lombok.Data;
 
 @Data
-public class EditOrgInfo {
+public class AddOrgInfoCase {
 
 	private int id;
 	private int built_in;
