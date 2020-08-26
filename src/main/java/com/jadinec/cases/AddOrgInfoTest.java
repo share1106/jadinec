@@ -1,5 +1,5 @@
 package com.jadinec.cases;
 
-public class AddOrgInfoCase {
+public class AddOrgInfoTest {
 
 }

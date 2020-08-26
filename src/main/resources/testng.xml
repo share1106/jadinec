@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="甲丁智慧建造云平台">
 	<test name="接口测试">
-		
+		<classes>
+			<class name="com.jadinec.cases.GetOrgInfoByIdTest">
+				<method>
+					<include name="getOrgInfoByIdTest"/>
+				</method>
+			</class>
+		</classes>
 	</test>
 </suite>

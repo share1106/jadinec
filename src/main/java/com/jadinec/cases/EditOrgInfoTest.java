@@ -1,5 +1,5 @@
 package com.jadinec.cases;
 
-public class EditOrgInfoCase {
+public class EditOrgInfoTest {
 
 }

@@ -41,7 +41,13 @@ public class OrganizationInfo {
 	private String update_time;
 	private String org_level_code;
 	
-	public String getInfo() {
-		return null;
+	@Override
+	public String toString() {
+		return (
+				"{id:" + id + "," +
+						"id:" + id + "," + 
+						"id:" + id + "," + 
+						"id:" + id + "}"
+				);
 	}
 }
