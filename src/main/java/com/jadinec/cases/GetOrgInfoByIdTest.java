@@ -29,4 +29,5 @@ public class GetOrgInfoByIdTest {
 		System.out.println(getOrgInfoByIdCase.toString());
 		System.out.println(TestConfig.getOrgInfoByIdUrl);
 	}
+
 }

@@ -3,7 +3,6 @@ package com.jadinec.config;
 import org.apache.http.client.CookieStore;
 import org.apache.http.impl.client.DefaultHttpClient;
 
-@SuppressWarnings("deprecation")
 public class TestConfig {
 
 	public static String getOrgInfoByIdUrl;

@@ -144,11 +144,14 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;甲丁智慧建造云平台&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;接口测试用例&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.jadinec.config.ExtentTestNGIReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;接口测试&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.jadinec.cases.GetOrgInfoByIdTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- 接口测试用例 --&gt;
+  &lt;/test&gt; &lt;!-- 接口测试 --&gt;
 &lt;/suite&gt; &lt;!-- 甲丁智慧建造云平台 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,7 +163,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">接口测试用例 (1 class)</span>
+                <span class="test-name">接口测试 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,12 +193,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getOrgInfoByIdTest')
 data.setCell(0, 2, 'com.jadinec.cases.GetOrgInfoByIdTest')
-data.setCell(0, 3, 706);
+data.setCell(0, 3, 707);
 window.suiteTableData['_________']= { tableData: data, tableDiv: 'times-div-_________'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 706 ms</span>
+              <span class="suite-total-time">Total running time: 707 ms</span>
               <div id="times-div-_________">
               </div> <!-- times-div-_________ -->
             </div> <!-- times-div -->

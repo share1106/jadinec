@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="甲丁智慧建造云平台" duration-ms="765" started-at="2020-08-26T18:24:30 CST" finished-at="2020-08-26T18:24:31 CST">
+  <suite name="甲丁智慧建造云平台" duration-ms="764" started-at="2020-08-27T14:07:16 CST" finished-at="2020-08-27T14:07:16 CST">
     <groups>
     </groups>
-    <test name="接口测试用例" duration-ms="765" started-at="2020-08-26T18:24:30 CST" finished-at="2020-08-26T18:24:31 CST">
+    <test name="接口测试" duration-ms="764" started-at="2020-08-27T14:07:16 CST" finished-at="2020-08-27T14:07:16 CST">
       <class name="com.jadinec.cases.GetOrgInfoByIdTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jadinec.cases.GetOrgInfoByIdTest@9660f4e]" name="beforeTest" is-config="true" duration-ms="33" started-at="2020-08-26T18:24:30 CST" finished-at="2020-08-26T18:24:30 CST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jadinec.cases.GetOrgInfoByIdTest@7494e528]" name="beforeTest" is-config="true" duration-ms="34" started-at="2020-08-27T14:07:16 CST" finished-at="2020-08-27T14:07:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getOrgInfoByIdTest()[pri:0, instance:com.jadinec.cases.GetOrgInfoByIdTest@9660f4e]" name="getOrgInfoByIdTest" duration-ms="706" started-at="2020-08-26T18:24:30 CST" finished-at="2020-08-26T18:24:31 CST">
+        <test-method status="PASS" signature="getOrgInfoByIdTest()[pri:0, instance:com.jadinec.cases.GetOrgInfoByIdTest@7494e528]" name="getOrgInfoByIdTest" duration-ms="707" started-at="2020-08-27T14:07:16 CST" finished-at="2020-08-27T14:07:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getOrgInfoByIdTest -->
       </class> <!-- com.jadinec.cases.GetOrgInfoByIdTest -->
-    </test> <!-- 接口测试用例 -->
+    </test> <!-- 接口测试 -->
   </suite> <!-- 甲丁智慧建造云平台 -->
 </testng-results>
