@@ -11,5 +11,19 @@
 		getorginfobyid where id = #{id};
 	</select>
 	
-
+	<!-- 获取公司信息 -->
+	<select id="getOrgInfoById" parameterType="com.jadinec.model.GetOrgInfoByIdCase" 
+	resultType="com.jadinec.model.OrganizationInfo"> 
+		select id,builtIn,orgType,orgCategory,orgCode,logoImg,orgName,nickName,
+		unifiedSocialCreditCode,regCapital,regAddress,legalRepPerson,openBank,
+		openBackAccount,officeAddress,contactMobile,orgAddress,orgWebSite,
+		 orgEmail,description,securityCertCode,businessLicenseCode,
+		 pimmLicense,accountOpenLicenseCode,'delete',addTime,updateTime,
+		 province,city,area,incorporationDate,businessScope,
+		 operatingStatus,industry,orgLevelCode,contractorContractList,
+		 isItemCompany,orgCategoryName,proCode,searchKey,parentId,
+		 deptId,kname,parentCompany,operatingStatusName,industryName,
+		 orgLevelName from organizationinfo 
+		where id = #{org_id};
+	</select>
 </mapper>

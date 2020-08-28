@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="甲丁智慧建造云平台" duration-ms="764" started-at="2020-08-27T14:07:16 CST" finished-at="2020-08-27T14:07:16 CST">
+  <suite name="甲丁智慧建造云平台" duration-ms="1463" started-at="2020-08-28T17:44:11 CST" finished-at="2020-08-28T17:44:13 CST">
     <groups>
     </groups>
-    <test name="接口测试" duration-ms="764" started-at="2020-08-27T14:07:16 CST" finished-at="2020-08-27T14:07:16 CST">
+    <test name="接口测试" duration-ms="1463" started-at="2020-08-28T17:44:11 CST" finished-at="2020-08-28T17:44:13 CST">
       <class name="com.jadinec.cases.GetOrgInfoByIdTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jadinec.cases.GetOrgInfoByIdTest@7494e528]" name="beforeTest" is-config="true" duration-ms="34" started-at="2020-08-27T14:07:16 CST" finished-at="2020-08-27T14:07:16 CST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jadinec.cases.GetOrgInfoByIdTest@27a5f880]" name="beforeTest" is-config="true" duration-ms="34" started-at="2020-08-28T17:44:11 CST" finished-at="2020-08-28T17:44:11 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getOrgInfoByIdTest()[pri:0, instance:com.jadinec.cases.GetOrgInfoByIdTest@7494e528]" name="getOrgInfoByIdTest" duration-ms="707" started-at="2020-08-27T14:07:16 CST" finished-at="2020-08-27T14:07:16 CST">
+        <test-method status="PASS" signature="getOrgInfoByIdTest()[pri:0, instance:com.jadinec.cases.GetOrgInfoByIdTest@27a5f880]" name="getOrgInfoByIdTest" duration-ms="1403" started-at="2020-08-28T17:44:11 CST" finished-at="2020-08-28T17:44:13 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getOrgInfoByIdTest -->

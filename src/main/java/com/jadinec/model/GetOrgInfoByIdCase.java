@@ -7,6 +7,8 @@ public class GetOrgInfoByIdCase {
 
 	private int id;
 	private int org_id;
+	private String expected;
+	
 	public int getId() {
 		return id;
 	}
@@ -25,7 +27,7 @@ public class GetOrgInfoByIdCase {
 	public void setExpected(String expected) {
 		this.expected = expected;
 	}
-	private String expected;
+	
 	@Override
 	public String toString() {
 		return (
