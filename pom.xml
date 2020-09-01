@@ -103,10 +103,13 @@
 				<fork>true</fork>
 				<encoding>UTF-8</encoding>
 				<executable>C:/Program Files/Java/jdk1.8.0_202/bin/javac</executable>
+				<skipTests>true</skipTests>
 			</configuration>
 		</plugin>
   		
+        
   		</plugins>
   </build>
+
 
 </project>
