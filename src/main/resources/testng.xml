@@ -7,6 +7,12 @@
 					<include name="getOrgInfoByIdTest"/>
 				</method>
 			</class>
+			<class name="com.jadinec.cases.AddOrgInfoTest">
+				<method>
+					<include name="addOrgInfoTest"/>
+					
+				</method>
+			</class>
 		</classes>
 	</test>
 	

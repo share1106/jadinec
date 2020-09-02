@@ -4,26 +4,52 @@
 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.jadinec.model">
-	<!-- 根据公司id获取公司信息 -->
-	<select id="getorginfobyid" parameterType="Integer" 
-	resultType="com.jadinec.model.GetOrgInfoByIdCase">
+	<!-- 根据公司id获取公司信息用例 -->
+	<select id="getorginfobyid" parameterType="Integer"
+		resultType="com.jadinec.model.GetOrgInfoByIdCase">
 		select id,org_id,expected from
-		getorginfobyid where id = #{id};
+		getorginfobyid where id =
+		#{id};
 	</select>
-	
+
+	<!-- 添加公司信息用例 -->
+	<select id="addorginfo" parameterType="Integer"
+		resultType="com.jadinec.model.AddOrgInfoCase">
+		select
+		id,accountOpenLicenseCode,businessLicenseCode,contactMobile,
+		legalRepPerson,logoImg,nickName,officeAddress,openBackAccount,
+		openBank,orgAddress,orgCategory,orgCode,orgEmail,orgName,orgType
+		orgWebSite,regAddress,regCapital,securityCertCode,superCompanyCode
+		unifiedSocialCreditCode,expected from
+		addorginfo where id = #{id};
+	</select>
+
 	<!-- 获取公司信息 -->
-	<select id="getOrgInfoById" parameterType="com.jadinec.model.GetOrgInfoByIdCase" 
-	resultType="com.jadinec.model.OrganizationInfo"> 
-		select id,builtIn,orgType,orgCategory,orgCode,logoImg,orgName,nickName,
-		unifiedSocialCreditCode,regCapital,regAddress,legalRepPerson,openBank,
-		openBackAccount,officeAddress,contactMobile,orgAddress,orgWebSite,
-		 orgEmail,description,securityCertCode,businessLicenseCode,
-		 pimmLicense,accountOpenLicenseCode,'delete',addTime,updateTime,
-		 province,city,area,incorporationDate,businessScope,
-		 operatingStatus,industry,orgLevelCode,contractorContractList,
-		 isItemCompany,orgCategoryName,proCode,searchKey,parentId,
-		 deptId,kname,parentCompany,operatingStatusName,industryName,
-		 orgLevelName from organizationinfo 
+	<select id="getOrgInfoById"
+		parameterType="com.jadinec.model.GetOrgInfoByIdCase"
+		resultType="com.jadinec.model.OrganizationInfo">
+		select
+		id,built_in,org_type,org_category,org_code,logo_img,org_name,nick_name,
+		unified_social_credit_code,reg_capital,reg_address,legal_rep_person,open_bank,
+		open_back_account,office_address,contact_mobile,org_address,org_web_site,
+		org_email,description,security_cert_code,business_license_code,
+		pimm_license,account_open_license_code,business_scope,operating_status,province,
+		city,area,industry,incorporation_date,is_delete,
+		add_time,update_time,org_level_code from t_organization_info
+		where id = #{org_id};
+	</select>
+
+	<!-- 添加公司信息 -->
+	<select id="addOrgInfo" parameterType="com.jadinec.model.AddOrgInfoCase"
+	resultType="com.jadinec.model.OrganizationInfo">
+		select
+		id,built_in,org_type,org_category,org_code,logo_img,org_name,nick_name,
+		unified_social_credit_code,reg_capital,reg_address,legal_rep_person,open_bank,
+		open_back_account,office_address,contact_mobile,org_address,org_web_site,
+		org_email,description,security_cert_code,business_license_code,
+		pimm_license,account_open_license_code,business_scope,operating_status,province,
+		city,area,industry,incorporation_date,is_delete,
+		add_time,update_time,org_level_code from t_organization_info
 		where id = #{org_id};
 	</select>
 </mapper>

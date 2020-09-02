@@ -38,10 +38,12 @@ public class GetOrgInfoByIdTest {
 	@BeforeTest
 	public void beforeTest() {
 		TestConfig.getOrgInfoByIdUrl = ConfigFile.getUrl(InterfaceName.GetOrgInfoById);
+		TestConfig.addOrgInfoUrl = ConfigFile.getUrl(InterfaceName.AddOrgInfo);
 		// System.err.println(TestConfig.getOrgInfoByIdUrl);
 		TestConfig.defaultHttpClient = new DefaultHttpClient();
 	}
 
+	//搜索成功
 	@Test
 	public void getOrgInfoByIdTest() throws IOException {
 		SqlSession sqlSession = DatabaseUtil.getSqlSession();
@@ -82,7 +84,8 @@ public class GetOrgInfoByIdTest {
 		//System.out.println(json_id);
 		Assert.assertEquals(result_id, json_id);
 	}
-
+	
+	
 	private JSONArray getJsonResult(GetOrgInfoByIdCase getOrgInfoByIdCase) throws ClientProtocolException, IOException {
 		HttpPost post = new HttpPost(TestConfig.getOrgInfoByIdUrl);
 		JSONObject param1 = new JSONObject();

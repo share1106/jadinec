@@ -6,50 +6,60 @@ import lombok.Data;
 public class OrganizationInfo {
 
 	private int id;
-	private int builtIn;
-	private int orgType;
-	private int orgCategory;
-	private String orgCode;
-	private String logoImg;
-	private String orgName;
-	private String nickName;
-	private String unifiedSocialCreditCode;
-	private String regCapital;
-	private String regAddress;
-	private String legalRepPerson;
-	private String openBank;
-	private String openBackAccount;
-	private String officeAddress;
-	private String contactMobile;
-	private String orgAddress;
-	private String orgWebSite;
-	private String orgEmail;
+	private int built_in;
+	private int org_type;
+	private int org_category;
+	private String org_code;
+	private String logo_img;
+	private String org_name;
+	private String nick_name;
+	private String unified_social_credit_code;
+	private String reg_capital;
+	private String reg_address;
+	private String legal_rep_person;
+	private String open_bank;
+	private String open_back_account;
+	private String office_address;
+	private String contact_mobile;
+	private String org_address;
+	private String org_web_site;
+	private String org_email;
 	private String description;
-	private String securityCertCode;
-	private String businessLicenseCode;
-	private String pimmLicense;
-	private String accountOpenLicenseCode;
-	private String delete;
-	private String addTime;
-	private String updateTime;
+	private String security_cert_code;
+	private String business_license_code;
+	private String pimm_license;
+	private String account_open_license_code;
+	private String business_scope;
+	private String operating_status;
 	private String province;
 	private String city;
 	private String area;
-	private String incorporationDate;
-	private String businessScope;
-	private String operatingStatus;
 	private String industry;
-	private String orgLevelCode;
-	private String contractorContractList;
-	private String isItemCompany;
-	private String orgCategoryName;
-	private String proCode;
-	private String searchKey;
-	private String parentId;
-	private String deptId;
-	private String kname;
-	private String parentCompany;
-	private String operatingStatusName;
+	private String incorporation_date;
+	private String is_delete;
+	private String add_time;
+	private String update_time;
+	private String org_level_code;
+
+	@Override
+	public String toString() {
+		return ("{id:" + id + "," + "built_in:" + built_in + "," + "org_type:" + org_type + "," + "org_category:"
+				+ org_category + "," + "org_code:" + org_code + "," + "logo_img:" + logo_img + "," + "org_name:"
+				+ org_name + "," + "nick_name:" + nick_name + "," + "unified_social_credit_code:"
+				+ unified_social_credit_code + "," + "reg_capital:" + reg_capital + "," + "reg_address:" + reg_address
+				+ "," + "legal_rep_person:" + legal_rep_person + "," + "open_bank:" + open_bank + ","
+				+ "open_back_account:" + open_back_account + "," + "office_address:" + office_address + ","
+				+ "contact_mobile:" + contact_mobile + "," + "org_address:" + org_address + "," + "org_web_site:"
+				+ org_web_site + "," + "org_email:" + org_email + "," + "description:" + description + ","
+				+ "security_cert_code:" + security_cert_code + "," + "business_license_code:" + business_license_code
+				+ "," + "pimm_license:" + pimm_license + "," + "account_open_license_code:" + account_open_license_code
+				+ "," + "business_scope:" + business_scope + "," + "operating_status:" + operating_status + ","
+				+ "province:" + province + "," + "city:" + city + "," + "area:" + area + "," + "industry:" + industry
+				+ "," + "incorporation_date:" + incorporation_date + "," + "is_delete:" + is_delete + "," + "add_time:"
+				+ add_time + "," + "update_time:" + update_time + "," + "org_level_code:" + org_level_code + "}");
+
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -58,148 +68,148 @@ public class OrganizationInfo {
 		this.id = id;
 	}
 
-	public int getBuiltIn() {
-		return builtIn;
+	public int getBuilt_in() {
+		return built_in;
 	}
 
-	public void setBuiltIn(int builtIn) {
-		this.builtIn = builtIn;
+	public void setBuilt_in(int built_in) {
+		this.built_in = built_in;
 	}
 
-	public int getOrgType() {
-		return orgType;
+	public int getOrg_type() {
+		return org_type;
 	}
 
-	public void setOrgType(int orgType) {
-		this.orgType = orgType;
+	public void setOrg_type(int org_type) {
+		this.org_type = org_type;
 	}
 
-	public int getOrgCategory() {
-		return orgCategory;
+	public int getOrg_category() {
+		return org_category;
 	}
 
-	public void setOrgCategory(int orgCategory) {
-		this.orgCategory = orgCategory;
+	public void setOrg_category(int org_category) {
+		this.org_category = org_category;
 	}
 
-	public String getOrgCode() {
-		return orgCode;
+	public String getOrg_code() {
+		return org_code;
 	}
 
-	public void setOrgCode(String orgCode) {
-		this.orgCode = orgCode;
+	public void setOrg_code(String org_code) {
+		this.org_code = org_code;
 	}
 
-	public String getLogoImg() {
-		return logoImg;
+	public String getLogo_img() {
+		return logo_img;
 	}
 
-	public void setLogoImg(String logoImg) {
-		this.logoImg = logoImg;
+	public void setLogo_img(String logo_img) {
+		this.logo_img = logo_img;
 	}
 
-	public String getOrgName() {
-		return orgName;
+	public String getOrg_name() {
+		return org_name;
 	}
 
-	public void setOrgName(String orgName) {
-		this.orgName = orgName;
+	public void setOrg_name(String org_name) {
+		this.org_name = org_name;
 	}
 
-	public String getNickName() {
-		return nickName;
+	public String getNick_name() {
+		return nick_name;
 	}
 
-	public void setNickName(String nickName) {
-		this.nickName = nickName;
+	public void setNick_name(String nick_name) {
+		this.nick_name = nick_name;
 	}
 
-	public String getUnifiedSocialCreditCode() {
-		return unifiedSocialCreditCode;
+	public String getUnified_social_credit_code() {
+		return unified_social_credit_code;
 	}
 
-	public void setUnifiedSocialCreditCode(String unifiedSocialCreditCode) {
-		this.unifiedSocialCreditCode = unifiedSocialCreditCode;
+	public void setUnified_social_credit_code(String unified_social_credit_code) {
+		this.unified_social_credit_code = unified_social_credit_code;
 	}
 
-	public String getRegCapital() {
-		return regCapital;
+	public String getReg_capital() {
+		return reg_capital;
 	}
 
-	public void setRegCapital(String regCapital) {
-		this.regCapital = regCapital;
+	public void setReg_capital(String reg_capital) {
+		this.reg_capital = reg_capital;
 	}
 
-	public String getRegAddress() {
-		return regAddress;
+	public String getReg_address() {
+		return reg_address;
 	}
 
-	public void setRegAddress(String regAddress) {
-		this.regAddress = regAddress;
+	public void setReg_address(String reg_address) {
+		this.reg_address = reg_address;
 	}
 
-	public String getLegalRepPerson() {
-		return legalRepPerson;
+	public String getLegal_rep_person() {
+		return legal_rep_person;
 	}
 
-	public void setLegalRepPerson(String legalRepPerson) {
-		this.legalRepPerson = legalRepPerson;
+	public void setLegal_rep_person(String legal_rep_person) {
+		this.legal_rep_person = legal_rep_person;
 	}
 
-	public String getOpenBank() {
-		return openBank;
+	public String getOpen_bank() {
+		return open_bank;
 	}
 
-	public void setOpenBank(String openBank) {
-		this.openBank = openBank;
+	public void setOpen_bank(String open_bank) {
+		this.open_bank = open_bank;
 	}
 
-	public String getOpenBackAccount() {
-		return openBackAccount;
+	public String getOpen_back_account() {
+		return open_back_account;
 	}
 
-	public void setOpenBackAccount(String openBackAccount) {
-		this.openBackAccount = openBackAccount;
+	public void setOpen_back_account(String open_back_account) {
+		this.open_back_account = open_back_account;
 	}
 
-	public String getOfficeAddress() {
-		return officeAddress;
+	public String getOffice_address() {
+		return office_address;
 	}
 
-	public void setOfficeAddress(String officeAddress) {
-		this.officeAddress = officeAddress;
+	public void setOffice_address(String office_address) {
+		this.office_address = office_address;
 	}
 
-	public String getContactMobile() {
-		return contactMobile;
+	public String getContact_mobile() {
+		return contact_mobile;
 	}
 
-	public void setContactMobile(String contactMobile) {
-		this.contactMobile = contactMobile;
+	public void setContact_mobile(String contact_mobile) {
+		this.contact_mobile = contact_mobile;
 	}
 
-	public String getOrgAddress() {
-		return orgAddress;
+	public String getOrg_address() {
+		return org_address;
 	}
 
-	public void setOrgAddress(String orgAddress) {
-		this.orgAddress = orgAddress;
+	public void setOrg_address(String org_address) {
+		this.org_address = org_address;
 	}
 
-	public String getOrgWebSite() {
-		return orgWebSite;
+	public String getOrg_web_site() {
+		return org_web_site;
 	}
 
-	public void setOrgWebSite(String orgWebSite) {
-		this.orgWebSite = orgWebSite;
+	public void setOrg_web_site(String org_web_site) {
+		this.org_web_site = org_web_site;
 	}
 
-	public String getOrgEmail() {
-		return orgEmail;
+	public String getOrg_email() {
+		return org_email;
 	}
 
-	public void setOrgEmail(String orgEmail) {
-		this.orgEmail = orgEmail;
+	public void setOrg_email(String org_email) {
+		this.org_email = org_email;
 	}
 
 	public String getDescription() {
@@ -210,60 +220,52 @@ public class OrganizationInfo {
 		this.description = description;
 	}
 
-	public String getSecurityCertCode() {
-		return securityCertCode;
+	public String getSecurity_cert_code() {
+		return security_cert_code;
 	}
 
-	public void setSecurityCertCode(String securityCertCode) {
-		this.securityCertCode = securityCertCode;
+	public void setSecurity_cert_code(String security_cert_code) {
+		this.security_cert_code = security_cert_code;
 	}
 
-	public String getBusinessLicenseCode() {
-		return businessLicenseCode;
+	public String getBusiness_license_code() {
+		return business_license_code;
 	}
 
-	public void setBusinessLicenseCode(String businessLicenseCode) {
-		this.businessLicenseCode = businessLicenseCode;
+	public void setBusiness_license_code(String business_license_code) {
+		this.business_license_code = business_license_code;
 	}
 
-	public String getPimmLicense() {
-		return pimmLicense;
+	public String getPimm_license() {
+		return pimm_license;
 	}
 
-	public void setPimmLicense(String pimmLicense) {
-		this.pimmLicense = pimmLicense;
+	public void setPimm_license(String pimm_license) {
+		this.pimm_license = pimm_license;
 	}
 
-	public String getAccountOpenLicenseCode() {
-		return accountOpenLicenseCode;
+	public String getAccount_open_license_code() {
+		return account_open_license_code;
 	}
 
-	public void setAccountOpenLicenseCode(String accountOpenLicenseCode) {
-		this.accountOpenLicenseCode = accountOpenLicenseCode;
+	public void setAccount_open_license_code(String account_open_license_code) {
+		this.account_open_license_code = account_open_license_code;
 	}
 
-	public String getDelete() {
-		return delete;
+	public String getBusiness_scope() {
+		return business_scope;
 	}
 
-	public void setDelete(String delete) {
-		this.delete = delete;
+	public void setBusiness_scope(String business_scope) {
+		this.business_scope = business_scope;
 	}
 
-	public String getAddTime() {
-		return addTime;
+	public String getOperating_status() {
+		return operating_status;
 	}
 
-	public void setAddTime(String addTime) {
-		this.addTime = addTime;
-	}
-
-	public String getUpdateTime() {
-		return updateTime;
-	}
-
-	public void setUpdateTime(String updateTime) {
-		this.updateTime = updateTime;
+	public void setOperating_status(String operating_status) {
+		this.operating_status = operating_status;
 	}
 
 	public String getProvince() {
@@ -290,30 +292,6 @@ public class OrganizationInfo {
 		this.area = area;
 	}
 
-	public String getIncorporationDate() {
-		return incorporationDate;
-	}
-
-	public void setIncorporationDate(String incorporationDate) {
-		this.incorporationDate = incorporationDate;
-	}
-
-	public String getBusinessScope() {
-		return businessScope;
-	}
-
-	public void setBusinessScope(String businessScope) {
-		this.businessScope = businessScope;
-	}
-
-	public String getOperatingStatus() {
-		return operatingStatus;
-	}
-
-	public void setOperatingStatus(String operatingStatus) {
-		this.operatingStatus = operatingStatus;
-	}
-
 	public String getIndustry() {
 		return industry;
 	}
@@ -322,164 +300,44 @@ public class OrganizationInfo {
 		this.industry = industry;
 	}
 
-	public String getOrgLevelCode() {
-		return orgLevelCode;
+	public String getIncorporation_date() {
+		return incorporation_date;
 	}
 
-	public void setOrgLevelCode(String orgLevelCode) {
-		this.orgLevelCode = orgLevelCode;
+	public void setIncorporation_date(String incorporation_date) {
+		this.incorporation_date = incorporation_date;
 	}
 
-	public String getContractorContractList() {
-		return contractorContractList;
+	public String getIs_delete() {
+		return is_delete;
 	}
 
-	public void setContractorContractList(String contractorContractList) {
-		this.contractorContractList = contractorContractList;
+	public void setIs_delete(String is_delete) {
+		this.is_delete = is_delete;
 	}
 
-	public String getIsItemCompany() {
-		return isItemCompany;
+	public String getAdd_time() {
+		return add_time;
 	}
 
-	public void setIsItemCompany(String isItemCompany) {
-		this.isItemCompany = isItemCompany;
+	public void setAdd_time(String add_time) {
+		this.add_time = add_time;
 	}
 
-	public String getOrgCategoryName() {
-		return orgCategoryName;
+	public String getUpdate_time() {
+		return update_time;
 	}
 
-	public void setOrgCategoryName(String orgCategoryName) {
-		this.orgCategoryName = orgCategoryName;
+	public void setUpdate_time(String update_time) {
+		this.update_time = update_time;
 	}
 
-	public String getProCode() {
-		return proCode;
+	public String getOrg_level_code() {
+		return org_level_code;
 	}
 
-	public void setProCode(String proCode) {
-		this.proCode = proCode;
-	}
-
-	public String getSearchKey() {
-		return searchKey;
-	}
-
-	public void setSearchKey(String searchKey) {
-		this.searchKey = searchKey;
-	}
-
-	public String getParentId() {
-		return parentId;
-	}
-
-	public void setParentId(String parentId) {
-		this.parentId = parentId;
-	}
-
-	public String getDeptId() {
-		return deptId;
-	}
-
-	public void setDeptId(String deptId) {
-		this.deptId = deptId;
-	}
-
-	public String getKname() {
-		return kname;
-	}
-
-	public void setKname(String kname) {
-		this.kname = kname;
-	}
-
-	public String getParentCompany() {
-		return parentCompany;
-	}
-
-	public void setParentCompany(String parentCompany) {
-		this.parentCompany = parentCompany;
-	}
-
-	public String getOperatingStatusName() {
-		return operatingStatusName;
-	}
-
-	public void setOperatingStatusName(String operatingStatusName) {
-		this.operatingStatusName = operatingStatusName;
-	}
-
-	public String getIndustryName() {
-		return industryName;
-	}
-
-	public void setIndustryName(String industryName) {
-		this.industryName = industryName;
-	}
-
-	public String getOrgLevelName() {
-		return orgLevelName;
-	}
-
-	public void setOrgLevelName(String orgLevelName) {
-		this.orgLevelName = orgLevelName;
-	}
-
-	private String industryName;
-	private String orgLevelName;
-
-	@Override
-	public String toString() {
-		return (
-				"{id:" + id + "," +
-				"builtIn:" + builtIn + "," + 
-				"orgType:" + orgType + "," + 
-				"orgCategory:" + orgCategory + "," + 
-				"orgCode:" + orgCode + "," +
-				"logoImg:" + logoImg + "," + 
-				"orgName:" + orgName + "," + 
-				"nickName:" + nickName + "," + 
-				"unifiedSocialCreditCode:" + unifiedSocialCreditCode + "," + 
-				"regCapital:" + regCapital + "," + 
-				"regAddress:" + regAddress + "," + 
-				"legalRepPerson:" + legalRepPerson + "," + 
-				"openBank:" + openBank + "," + 
-				"openBackAccount:" + openBackAccount + "," + 
-				"officeAddress:" + officeAddress + "," + 
-				"contactMobile:" + contactMobile + "," + 
-				"orgAddress:" + orgAddress + "," + 
-				"orgWebSite:" + orgWebSite + "," + 
-				"orgEmail:" + orgEmail + "," + 
-				"description:" + description + "," +
-				"securityCertCode:" + securityCertCode + "," +
-				"businessLicenseCode:" + businessLicenseCode + "," +
-				"pimmLicense:" + pimmLicense + "," +
-				"accountOpenLicenseCode:" + accountOpenLicenseCode + "," +
-				"delete:" + delete + "," +
-				"addTime:" + addTime + "," +
-				"updateTime:" + updateTime + "," +
-				"province:" + province + "," +
-				"city:" + city + "," +
-				"area:" + area + "," +
-				"incorporationDate:" + incorporationDate + "," +
-				"businessScope:" + businessScope + "," +
-				"operatingStatus:" + operatingStatus + "," +
-				"industry:" + industry + "," +
-				"orgLevelCode:" + orgLevelCode + "," +
-				"contractorContractList:" + contractorContractList + "," +
-				"isItemCompany:" + isItemCompany + "," +
-				"orgCategoryName:" + orgCategoryName + "," +
-				"proCode:" + proCode + "," +
-				"searchKey:" + searchKey + "," +
-				"parentId:" + parentId + "," +
-				"deptId:" + deptId + "," +
-				"kname:" + kname + "," +
-				"parentCompany:" + parentCompany + "," +
-				"operatingStatusName:" + operatingStatusName + "," +
-				"industryName:" + industryName + "," +
-				"orgLevelName:" + orgLevelName + "}"
-				);
+	public void setOrg_level_code(String org_level_code) {
+		this.org_level_code = org_level_code;
 	}
 
 }
